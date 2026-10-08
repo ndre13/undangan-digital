@@ -61,7 +61,7 @@ export function OurStory() {
                       </div>
                     ) : (
                       <div className="flex aspect-[4/3] w-full max-w-[260px] items-center justify-center border border-taupe/40 bg-ivory">
-                        <span className="font-script text-3xl text-botanical">A & L</span>
+                        <span className="font-script text-3xl text-botanical">L & A</span>
                       </div>
                     )}
                   </div>

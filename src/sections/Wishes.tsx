@@ -36,7 +36,11 @@ async function sendWishEmail(name: string, message: string) {
     method: 'POST',
     // text/plain menghindari preflight CORS ke Google Apps Script
     headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-    body: JSON.stringify({ name, message }),
+    body: JSON.stringify({
+      name,
+      message,
+      to: weddingData.wishes.notifyEmail,
+    }),
     redirect: 'follow',
   })
 

@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="bg-forest px-5 py-12 text-center text-cream sm:px-8 sm:py-14">
       <p className="font-sans text-[10px] tracking-[0.2em] text-cream/60 uppercase">Dengan Cinta,</p>
       <p className="mt-2 font-script text-3xl text-cream">
-        {groom.name} & {bride.name}
+        {bride.name} & {groom.name}
       </p>
       <p className="mt-6 font-sans text-[10px] tracking-[0.18em] text-cream/45">© {year}</p>
     </footer>

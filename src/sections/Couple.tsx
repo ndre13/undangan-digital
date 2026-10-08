@@ -104,14 +104,14 @@ export function Couple() {
             <LeafOrnament flip />
           </div>
           <h2 className="font-serif text-3xl font-light tracking-wide text-ink sm:text-4xl">
-            Pengantin Pria &amp; Wanita
+            Pengantin Wanita &amp; Pria
           </h2>
         </Reveal>
 
         <ImageReveal className="relative mb-16 aspect-[16/10] w-full overflow-hidden sm:mb-20 sm:aspect-[21/9]">
           <img
             src={couplePhoto}
-            alt={`${groom.name} & ${bride.name}`}
+            alt={`${bride.name} & ${groom.name}`}
             className="h-full w-full object-cover"
             loading="lazy"
           />

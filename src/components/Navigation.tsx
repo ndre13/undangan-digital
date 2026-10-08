@@ -50,7 +50,7 @@ export function Navigation({ invitationOpen }: NavigationProps) {
             href="#home"
             className="font-serif text-sm tracking-[0.2em] uppercase opacity-90 transition hover:opacity-100"
           >
-            A & L 
+            L & A
           </a>
 
           <ul className="hidden items-center gap-8 md:flex">

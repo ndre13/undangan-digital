@@ -11,6 +11,7 @@ import { TheDay } from './sections/TheDay'
 import { Venue } from './sections/Venue'
 import { Gallery } from './sections/Gallery'
 import { Wishes } from './sections/Wishes'
+import { Gift } from './sections/Gift'
 import { ThankYou } from './sections/ThankYou'
 import { Footer } from './sections/Footer'
 import { weddingData } from './data/weddingData'
@@ -79,6 +80,7 @@ function App() {
             <TheDay />
             <Venue />
             <Gallery />
+            <Gift />
             <Wishes />
             <ThankYou />
           </main>

@@ -31,13 +31,13 @@ export function Cover({ onOpen, isOpen }: CoverProps) {
 
         <div className="mt-5 sm:mt-8">
           <h1 className="font-script text-[2.75rem] leading-none sm:text-6xl md:text-7xl">
-            {groom.name}
+            {bride.name}
           </h1>
           <p className="my-1 font-serif text-xl font-light tracking-[0.15em] opacity-80 sm:my-2 sm:text-3xl">
             &
           </p>
           <h1 className="font-script text-[2.75rem] leading-none sm:text-6xl md:text-7xl">
-            {bride.name}
+            {groom.name}
           </h1>
         </div>
 

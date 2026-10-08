@@ -1,4 +1,4 @@
-# Undangan Pernikahan Digital — M. Arshiel, A.ma & Liza Afriani
+# Undangan Pernikahan Digital — Liza Afriani & M. Arshiel, A.ma
 
 Undangan pernikahan digital bergaya editorial premium, dibangun dengan React, TypeScript, dan Tailwind CSS.
 

@@ -26,9 +26,9 @@ export function ThankYou() {
         </p>
 
         <div className="mt-10">
-          <p className="font-script text-5xl sm:text-6xl">{groom.name}</p>
-          <p className="my-1 font-serif text-xl font-light opacity-70">&</p>
           <p className="font-script text-5xl sm:text-6xl">{bride.name}</p>
+          <p className="my-1 font-serif text-xl font-light opacity-70">&</p>
+          <p className="font-script text-5xl sm:text-6xl">{groom.name}</p>
         </div>
 
         <p className="mt-8 font-serif text-sm tracking-[0.28em] opacity-80">{date.short}</p>

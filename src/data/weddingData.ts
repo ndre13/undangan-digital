@@ -111,6 +111,26 @@ export const weddingData = {
     { src: '/ft9.jpeg', alt: 'Potret bersama' },
     { src: '/ft10.jpeg', alt: 'Kenangan manis' },
   ],
+  gift: {
+    message:
+      'Kehadiran dan doa restu Anda merupakan anugerah terindah bagi kami. Namun, apabila Anda tidak dapat hadir dan hendak memberikan tanda kasih kepada kami, Anda dapat menggunakan fitur di bawah ini.',
+    accounts: [
+      {
+        id: 'bca',
+        bank: 'BCA',
+        bankFull: 'Bank Central Asia',
+        accountNumber: '0670110980',
+        accountName: 'Liza Afriani',
+      },
+      {
+        id: 'bsi',
+        bank: 'BSI',
+        bankFull: 'Bank Syariah Indonesia',
+        accountNumber: '7177642465',
+        accountName: 'M. Arshiel',
+      },
+    ],
+  },
   thankYou: {
     message: 'Atas kehadiran dan doa di hari istimewa kami.',
     background:
@@ -122,13 +142,13 @@ export const weddingData = {
   },
   wishes: {
     message: 'Tinggalkan ucapan hangat untuk pasangan.',
-    notifyEmail: 'alakad261026@gmail.com',
+    notifyEmail: 'arshiellistamuhammad@gmail.com',
     /**
      * URL Web App dari Google Apps Script (scripts/SendWishEmail.gs).
      * Contoh: 'https://script.google.com/macros/s/XXXX/exec'
      */
     appsScriptUrl:
-      'https://script.google.com/macros/s/AKfycbxmPR1djxJrolegJXnVuxiN_x-lS2JnvHbJoPYXExnQXRGLwkoFZYS8_vE0lbwB0UvWxg/exec',
+      'https://script.google.com/macros/s/AKfycbwQ1SJp_P-xAreSR0XtTvNLjihs8MyB-U53qJ12p4GACiRUd5-LVHttz2nQ1lEZKkYL/exec',
   },
 } as const
 
